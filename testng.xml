@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DocsInk" parallel="tests" thread-count="5" data-provider-thread-count="1">
+	<test name="ARCSAssessmentCreationTest">
+		<classes>
+			<class name="com.baseFramework.Regression.ARCSAssessmentCreationTest" />
+		</classes>
+	</test>
+	<test name="EditPatientProfileTest">
+		<classes>
+			<class name="com.baseFramework.Regression.EditPatientProfileTest" />
+		</classes>
+	</test>
+	<test name="PatientCreationTest">
+		<classes>
+			<class name="com.baseFramework.Regression.PatientCreationTest" />
+		</classes>
+	</test>
+	<test name="PatientPortalLoginFuctionalityTest">
+		<classes>
+			<class name="com.baseFramework.Regression.PatientPortalLoginFuctionalityTest" />
+		</classes>
+	</test>
+	<test name="RpmProgramCreationTest">
+		<classes>
+			<class name="com.baseFramework.Regression.RpmProgramCreationTest" />
+		</classes>
+	</test>
+
+</suite>
